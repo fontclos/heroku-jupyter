@@ -20,6 +20,7 @@ dependencies:
   - pip:
     - pgcontents
     - numpy
+    - matplotlib
     - trimesh
     - k3d
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
