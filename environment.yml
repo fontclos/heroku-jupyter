@@ -1,16 +1,13 @@
 name: heroku-jupyter
 dependencies:
   # bind notebook version (compatibility to pgcontents)
-  # - notebook = 4
-  - notebook = 5.3
+  - notebook = 4
   - ipywidgets
   - requests
   # bind ipython version (compatibility to pgcontents)
   - ipython = 5
-  # - ipython
   # bind tornado version (websocket problems)
   - tornado = 4.5
-  # - tornado
   # get dependencies for pgcontents
   - certifi
   - click
@@ -26,4 +23,4 @@ dependencies:
     - matplotlib
     - trimesh
     - k3d
-    # - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
