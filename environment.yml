@@ -22,5 +22,5 @@ dependencies:
     - numpy
     - matplotlib
     - trimesh
-    - k3d==2.3.0
+    - k3d==2.4.0
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
